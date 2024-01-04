@@ -126,11 +126,12 @@ export default function Home() {
             type="text"
             placeholder="Ingrese nueva tarea"
             value={inputValue}
+        
             onChange={handleInputChange}
-            
+          
           />
           
-          <button className="flex  bg-white px-6 py-2 m-1 rounded-full " onClick={handleAddTodo}>Agregar</button>
+          <button className="flex  bg-white px-4 py-2 m-1 rounded-full " onClick={handleAddTodo}>Agregar</button>
         </div>
         
         
